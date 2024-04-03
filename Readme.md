@@ -1,3 +1,11 @@
+# Milvus Setup
+
+Milvus is a vector database built for scalable similarity search.
+
+It is specifically designed for computer vision tasks such as for Face Recognition Search and Image Similarity Search.
+
+# Setup 
+
 Download Milvus Docker Image
 
 ```
@@ -21,6 +29,16 @@ Setting up Milvus Python SDK, this is meant for testing the milvus client.
 
 ```
 python3 -m pip install pymilvus==2.4.0
-pip3 install grpcio-tools
-pip3 install protobuf==3.20.0
 ```
+
+To test a client script:
+
+```
+cd client
+python hello_milvus24.py
+```
+
+
+
+
+

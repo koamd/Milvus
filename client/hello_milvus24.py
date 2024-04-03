@@ -1,3 +1,5 @@
+#The following client codes are obtained from https://milvus.io/docs/
+
 from pymilvus import MilvusClient, DataType
 import random
 
